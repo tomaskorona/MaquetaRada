@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obligatorio</title>
+    <!--Fuente para el parrafos-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="general">
+        <header>
+            <a href="index.html">
+                <img src="imagenes/african-drum.png" alt="tambor" class="logo">
+            </a>
+            <img src="imagenes/escSpoty.png" alt="logoSpoty" class="logoSpoty">
+        </header>
+
+        <div class="menu">
+
+            <ul>
+                <li><a href="index.html" class="active">Hola </a></li>
+                <li><a href="conocenos.html" target="_blanck">Conocenos </a></li>
+                <li><a href="#">Tienda </a></li>
+            </ul>
+
+        </div>
+
+        <div class="presentacion">
+
+            <div class="intro">
+
+                <h2>Ruben Rada</h2>
+                <p>
+                    Músico compositor, cantante, percusionista y actor.
+                    Ruben “El Negro” Rada es un hombre fresco y multifacético, creador del candombe Beat y galardonado
+                    con el premio a la Excelencia Musical otorgado por los Latin Grammy Awards en 2011.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="noticias">
+
+            <h2>Noticias</h2>
+            <section>
+
+                <article>
+                    <img src="imagenes/conPeke.jpg" alt="tamborFondo" width="100" height="100">
+                    <h3>Colaboracion inedita</h3>
+                    <p>
+                        El artista es uno de los invitados en una de las canciones del nuevo disco del trapero.
+                    </p>
+                    <input type="button" value="ampliar">
+                </article>
+
+                <article class="segundoArticulo">
+                    <img src="imagenes/chica.jpg" alt="conPeke" width="100" height="100">
+                    <h3>Reconocido por su aporte a la cultura.</h3>
+                    <p>
+                        Recibió el reconocimiento Master of Latin Music Award de la prestigiosa escuela estadounidense
+                        Berklee College of Music.
+                    </p>
+                    <input type="button" value="ampliar">
+                </article>
+
+            </section>
+        </div>
+
+        <div class="agenda">
+
+            <section>
+                <h2>Agenda</h2>
+
+                <article class="evento">
+                    <h3>Eventos</h3>
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Hora</th>
+                                <th>Lugar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>05/02/2021</td>
+                                <td>19:30</td>
+                                <td>Teatro de Verano, Montevideo, Uruguay</td>
+                            </tr>
+                            <tr>
+                                <td>08/03/2021</td>
+                                <td>18:00</td>
+                                <td>Teatro El Galpon, Montevideo, Uruguay</td>
+                            </tr>
+                            <tr>
+                                <td>20/05/2021</td>
+                                <td>21:00</td>
+                                <td>Luna Park, Buenos Aires, Argentina</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </article>
+                <article class="comprar">
+
+                        <h3>Comprar tickets</h3>
+
+                        <fieldset class="nombreApellido">
+                            <label for="nombreApeliido">Nombre y apellido(*):</label><br>
+                            <input type="text" id="nombre">
+                        </fieldset>
+
+                        <fieldset class="cantidad">
+                            <label for="cantidad">Cantidad(*):</label><br>
+                            <input type="number" id="cantidad" min="1">
+                        </fieldset>
+
+                        <fieldset class="eventoElegir">
+                            <label for="labelEvento">Evento(*):</label><br>
+                            <select name="labelEvento">
+                                <option disabled selected>Eliga opcion:</option>
+                                <option value="1">Teatro de Verano</option>
+                                <option value="2">Teatro El Galpon</option>
+                                <option value="3">Luna Park</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset class="formaPago">
+                            <label for="formaPago">Forma de pago:</label><br>
+                            <input type="radio" name="formaPago" value="debito">Debito
+                            <input type="radio" name="formaPago" value="credito">Credito
+                            <input type="button" value="Comprar" class="btnComprar">
+                        </fieldset>
+
+                </article>
+            </section>
+        </div>
+
+        <footer>
+            <p>Seguinos!
+            <figure>
+            <a href="#"><img src="imagenes/fb.png" alt="facebook"></a>
+            <a href="#"><img src="imagenes/insta.png" alt="instagram"></a>
+            <a href="#"><img src="imagenes/twitter.png" alt="twitter"></a>
+            </figure>
+            </p>
+        </footer>  
+</div>    
+</body>
+</html>

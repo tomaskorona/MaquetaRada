@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-image: url(imagenes/prueba.jpg);
+    background-size: cover;
+}
+
+.general{
+    width: 1200px;
+    margin: auto;
+}
+.generalConocenos{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    width: 1200px;
+    margin: auto;
+
+}
+
+.logo{
+    height: 125px;
+    width: 140px;
+    padding: 20px 20px 5px 20px;
+}
+
+.logoSpoty{
+    float: right;
+    height: 125px;
+    width: 280px;
+    padding: 20px 20px 2px 20px;
+}
+
+h1{
+    background-color: black;
+    color: darkorange;
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 35px;
+    font-family: fantasy ;    
+}
+
+.menu{
+    width: 1200px;
+    margin: auto;
+}
+
+.menu ul{
+    background-color: #290001;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu li{
+    display: inline;
+    margin-top: 10px;
+}
+
+.menu li a{
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    color: wheat;
+}
+
+.active{
+    border-bottom: 2px solid wheat;
+}
+
+.menu li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 8px;    
+    padding: 9px 20px 9px 20px;
+    border: 1px solid black;
+}
+
+.presentacion{
+    background: url(imagenes/primeraImagen.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    color: wheat;
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.presentacion p{
+    color: wheat;
+    font-size: 19px;
+}
+
+.intro{
+    font-size: 15px;
+    width: 600px;
+    float: right;
+    margin-top: 100px;
+    height: 100px;
+}
+
+.noticias{
+    height: 500px;
+    background-color: #87441dd7;
+    color: wheat;
+}
+
+.noticias h2{
+    padding-left: 40px;
+}
+
+.noticias section{
+    width: 1200px;
+    height: 450px;
+    margin: auto;
+}
+
+.noticias article{
+    width: 500px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 50px;
+}
+
+.noticias h3{
+    font-weight: bold;
+    font-size: 25px; 
+    margin-bottom: 10px;
+}
+
+.noticias article img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+.noticias article input{
+    font-size: 17px;
+    color: lightblue;
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.noticias article input:hover{
+    background-color: wheat;
+    color: black;
+    border-radius: 8px;    
+    padding: 9px 20px 9px 20px;
+    border: 1px solid yellow;
+}
+
+.agenda{
+    height: 500px;
+    color: wheat;
+    background-color: #c87941;
+}
+
+.agenda h2{
+    padding-left: 40px;
+}
+
+.agenda section{
+    width: 1200px;
+    height: 450px;
+    margin: auto;
+}
+
+.evento{
+    float: left;
+    width: 600px;
+} 
+
+.comprar{
+    height: 500px;
+    width: 300px;
+    padding: 20px;
+    float: right; 
+}
+
+.evento h3{
+    width: 70px;
+    font-size: 22px;
+    color: wheat;
+    padding: 25px 0px 25px 40px;
+    font-weight: bold;
+}
+
+table{
+    color: black;
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 19px;
+    border-color: black;
+    background-color: wheat;
+    margin-left: 40px;
+}
+
+table th{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+table td{
+    border-right: 2px solid black;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}  
+
+.comprar{
+    float: right;
+    width: 500px;
+    padding: 20px;
+} 
+
+.comprar h3{
+    margin-left: -1cm;
+    width: 300px;
+    font-size: 22px;
+    color: wheat;
+    padding: 0px 0px 25px 40px;
+    font-weight: bold;
+} 
+
+.comprar label{
+    font-size: 19px;
+}
+
+fieldset{
+    border: none;
+}
+
+.eventoElegir{
+    margin-top: 2cm;
+}
+
+.eventoElegir select{
+    width: 300px;
+    background-color: wheat;
+}
+.comprar input{
+    height: 30px;
+    font-size: 19px;
+}
+
+.comprar select{
+    float: left;
+    height: 30px;
+}
+
+
+.nombreApellido{
+    float: left;
+    font-size: 19px;
+}
+
+.nombreApellido input{
+    background-color: wheat;
+}
+
+.cantidad{
+    float: right;
+    width: 30px;
+}
+
+.cantidad input{
+    width: 40px;
+    background-color: wheat;
+    font-size: 19px;
+
+}
+
+.formaPago{
+    margin-top: 1cm;
+    font-size: 19px;
+    padding: 10px 0px 10px 0px;
+}
+
+.formaPago input{
+    background-color: wheat;
+    margin-top: 10px;
+}
+
+.btnComprar{
+    float: right;
+}
+
+.btnComprar{
+    width: 100px;
+    height: 20px;
+    font-size: 16px;
+}
+
+
+.conocenos{
+    background: url(imagenes/conocenosRada.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.conocenos p{
+    color: wheat;
+    font-size: 19px;
+}
+
+.texto{
+    font-size: 15px;
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-top: 100px;
+    height: 100px;
+}
+
+.biografia{
+    height: 500px;
+    background-color: #87441dd7;
+    color: wheat;
+}
+
+.biografia h2{
+    padding-left: 40px;
+}
+   
+.biografia img{
+    float: right;
+    height: 350px;
+    width: 700px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.biografia p {
+    width: 350px;
+    height:300px;
+    float: left;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.biografia input{
+    font-size: 17px;
+    color: lightblue;
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.biografia input:hover{
+    background-color: wheat;
+    color: black;
+    border-radius: 8px;    
+    padding: 9px 20px 9px 20px;
+    border: 1px solid yellow;
+}
+
+.discografia {
+    width: 1200px;
+    height: 500px;
+    background-color: #c87941;
+    margin: auto; 
+}
+
+.discografia ol{
+    margin-left: 40px;
+}
+
+.discografia h2{
+    padding-left: 40px;
+}
+
+.discografia h3 {
+    font-size: 30px;
+    color: wheat;
+}
+
+.discografia ol{
+    font-size: 20px;
+    color: wheat;
+}
+
+.discografia input{
+    font-size: 17px;
+    color: lightblue;
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.discografia input:hover{
+    background-color: wheat;
+    color: black;
+    border-radius: 8px;    
+    padding: 9px 20px 9px 20px;
+    border: 1px solid yellow;
+}
+
+.discografia img{
+    border-radius: 5px;
+    float: left;
+    margin-right: 22px;
+}
+
+.discografia h3{
+    padding: 5px 5px 5px 5px;
+}
+
+.discografia .disco1 {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 480px;
+    height: 300px;
+    float: left;
+}
+
+.discografia .disco2 {
+    margin-right: 40px;
+    margin-top: 50px;
+    width: 480px;
+    height: 300px;
+    float: right;
+ }
+.disco2 label {
+     color: wheat;
+ }
+
+.integrantes {
+     width: 1200px;
+     height: 500px;
+     background-color: #87441dd7;
+     margin: auto;
+     color: wheat;
+ }
+
+.integrantes h2{
+    padding-left: 40px;
+}
+
+.integrantes h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.integrantes article {
+    text-align: center;
+    width: 200px;
+    height:500px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 70px;
+ }
+
+.integrantes img{
+    border-radius: 5px;
+}
+
+footer{
+    width: 1200px;
+    background-color: #dbcbbd;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+
